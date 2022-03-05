@@ -1,0 +1,10 @@
+#prime number verification program
+a=int(input('print number:'))
+for i in range(2,a):
+    if a%i !=0:
+        continue
+    else:
+        print("Its not a prime number")
+        break # here break is executed then it means else would not be executed.
+else:
+    print("Its a prime number")#this is out of the for loop suite.
